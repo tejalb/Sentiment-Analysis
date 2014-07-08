@@ -19,7 +19,7 @@ def main():
     content=[]
     json_dict={}
     tweet_file=open(sys.argv[2])
-#Why do I need to declare this again?? If I don't it doesn't read in
+
     for line in tweet_file:
      json_dict=json.loads(line)
      if 'text' in json_dict.keys():
@@ -31,7 +31,7 @@ def main():
     #print content[6]
 
     affinfile=open(sys.argv[1]) 
-#If I use sent_file above, it prints an empty dict. Why?? 
+
     scores={}
     for line in affinfile:
      term,score=line.split("\t")
