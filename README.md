@@ -1,5 +1,3 @@
-Tweets
-======
 This was done as a part of the Intro to Data Science MOOC. It involves the following:
 
 -access the twitter Application Programming Interface(API) using python
