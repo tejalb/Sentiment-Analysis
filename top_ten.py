@@ -19,7 +19,7 @@ def main():
     json_dict={}
     frequency={}
     tweet_file=open(sys.argv[1])
-#Why do I need to declare this again?? If I don't it doesn't read in
+
     for line in tweet_file:
      json_dict=json.loads(line)
      if 'entities' in json_dict.keys():
