@@ -11,7 +11,7 @@ This was done as a part of the Intro to Data Science MOOC. It involves the follo
 Usage:
 First run twitterstream.py to collect tweets from the livestream and write the output to a file
 
-./twittertream.py > output.txt
+./twitterstream.py > output.txt
 
-The otehr functions then use output.txt and the pre-computed sentiment file AFINN-111.txt.
+The other functions then use output.txt and the pre-computed sentiment file AFINN-111.txt.
 
